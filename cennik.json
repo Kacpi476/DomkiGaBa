@@ -1,0 +1,40 @@
+{
+    "cennik": [
+      { "termin": "25 KWIETNIA - 5 MAJA", "cena": "320 ZŁOTYCH" },
+      { "termin": "1 CZERWCA - 11 LICPA", "cena": "330 ZŁOTYCH" },
+      { "termin": "11 LIPCA - 18 SIERPNIA", "cena": "440 ZŁOTYCH" },
+      { "termin": "18 SIERPNIA  - 2 WRZEŚNIA", "cena": "270 ZŁOTYCH" },
+      { "termin": "2 WRZEŚNIA - 30 WRZEŚNIA", "cena": "200 ZŁOTYCH" }
+    ],
+    "opis": [
+      "Ceny dotyczą 4 osób.",
+      "Każda kolejna osoba w domku: 40zł/doba.",
+      "Opłata za psa: 30zł/doba.",
+      "Opłata miejscowa: 3,20 zł od każdej osoby.",
+      "BRAK DODATKOWYCH OPŁAT!!! (prąd, woda, sprzątanie końcowe, parking za drugi samochód, nielimitowany dostęp do rowerów).",
+      "Opłata za energię elektryczną wg wskazań licznika 2zł/1kW.",
+      "Kaucja wynosi 300zł. Płatna przy zakwaterowaniu.",
+      "Doba rozpoczyna się o godzinie 16:00 w dniu przyjazdu, a kończy się o godzinie 10:00 w dniu wyjazdu.",
+      "<b>W celu rezerwacji prosimy o kontakt telefoniczny 500-202-585.</b>"
+    ],
+    "regulamin": [
+      "Rezerwacji można dokonać telefonicznie, warunkiem pełnej rezerwacji jest dokonanie wpłaty bezzwrotnego zadatku w wysokości 30% (lub innej kwoty ustalonej z właścicielem) na wskazane konto bankowe w terminie do 2 dni po wstępnej rezerwacji co jest równoznaczne z akceptacją warunków rezerwacji i regulaminu. W przypadku braku wpłaty zadatku w wyznaczonym terminie rezerwacja ulega anulowaniu.",
+      "Opłata za pobyt w ośrodku pobierana jest w dniu przyjazdu wraz z opłatą miejscową oraz z kaucją zwrotną.",
+      "Doba hotelowa rozpoczyna się od godziny 15:00 w dniu przyjazdu a kończy się o godzinie 10:00 w dniu wyjazdu. Istnieje możliwość wcześniejszego przyjazdu po ustaleniu telefonicznym z właścicielem ośrodka przynajmniej na 2 dni przed przyjazdem.",
+      "Na terenie ośrodka obowiązuje cisza nocna w godzinach 22:00 - 7:00.",
+      "Przed opuszczeniem ośrodka do godziny 10:00 należy posprzątać zajmowany domek, teren wokół domku oraz wynieść nieczystości do pojemników na śmieci.",
+      "W domkach obowiązuje bezwzględny zakaz używania sprzętu elektrycznego niebędącego na wyposażeniu, palenia papierosów, smażenia ryb oraz używania otwartego ognia. Osoby palące prosimy o wychodzenie na taras. Grill prosimy ustawić na tarasie przy trawniku, tak aby nie utrudniać życia sąsiadom, po zakończeniu grillowania prosimy grill wygasić, nie pozostawiać rozgrzanego żaru.",
+      "Na terenie ośrodka obowiązuje zakaz rozpalania ognisk.",
+      "Za bezpieczeństwo dzieci na terenie ośrodka odpowiadają rodzice lub ich opiekunowie.",
+      "Osoby wynajmujące ponoszą odpowiedzialność finansową za uszkodzenia lub zniszczenie mienia będącego na wyposażeniu ośrodka powstałych z jego winy, winy dzieci, winy zwierząt lub osób go odwiedzających. Prosimy o powstałych szkodach niezwłoczne powiadomić właściciela, który wspólnie z wynajmującym ustali koszt naprawy uszkodzonego sprzętu lub zapłaty za zniszczony.",
+      "Na terenie ośrodka jest parking niestrzeżony, za parkujące samochody oraz pozostawiane w nich, jak i w domkach przedmioty właściciel ośrodka nie ponosi odpowiedzialności.",
+      "W razie zgubienia kluczy od domku pobieramy opłatę w wysokości 50 zł.",
+      "Wyrażamy zgodę na pobyt w domkach małych zwierząt domowych posiadających aktualne szczepienia po wcześniejszym ustaleniu z właścicielami. Zwierzę na terenie ośrodka musi być pod pełną kontrolą właścicieli oraz nie może zakłócać wypoczynku bądź stwarzać zagrożenia dla innych wczasowiczów.",
+      "Za wszelkie zanieczyszczenia terenu oraz materialne szkody wyrządzone przez posiadane zwierzęta odpowiada jego właściciel.",
+      "Osoby przebywające na terenie posesji zobowiązane są do przestrzegania niniejszego regulaminu. Zachowania się w sposób niezagrażający bezpieczeństwu innych osób. Stosowania się do poleceń właścicieli posesji. Przestrzegania przepisów o ochronie przyrody, BHP i P-POŻ.",
+      "Odbiór i zdanie domku odbywa się w towarzystwie właściciela lub osoby uprawnionej.",
+      "W przypadku nieprzestrzegania postanowień niniejszego regulaminu właściciel ośrodka może odmówić dalszego świadczenia usług osobie, która je narusza w trybie natychmiastowym. Osoba ta zobowiązana jest do zastosowania się do żądań właściciela i zapłaty za poczynione szkody jeżeli takie powstaną i bezwarunkowego opuszczenia obiektu.",
+      "Obowiązuje segregacja śmieci."
+    ]
+  }
+  

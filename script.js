@@ -7,21 +7,18 @@ const navWrapper = document.querySelector(".nav-wrapper");
 const hamburger = document.getElementById('hamburger');
 const overlay = document.getElementById('overlay');
 
-// Po kliknięciu hamburgera
 hamburger.addEventListener('click', () => {
     nav.classList.toggle('open');
     overlay.classList.toggle('active');
     hamburger.classList.toggle('active');
 });
 
-// Zamykanie po kliknięciu overlayu
 overlay.addEventListener('click', () => {
     nav.classList.remove('open');
     overlay.classList.remove('active');
     hamburger.classList.remove('active');
 });
 
-// Zamykanie po kliknięciu linku w mobilnym menu
 links.forEach(link => {
     link.addEventListener("click", () => {
         nav.classList.remove('open');
@@ -127,7 +124,7 @@ let isDragging = false,
     startScrollLeft,
     timeoutId;
 
-// Scroll one card left/right with arrows
+
 arrowBtns.forEach(btn => {
     btn.addEventListener("click", () => {
         carousel.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth;
@@ -156,7 +153,7 @@ const dragStop = () => {
     maybeAppendSlides();
 };
 
-// Append new slides if we are close to the end
+
 const maybeAppendSlides = () => {
     const scrollRightEdge = carousel.scrollLeft + carousel.offsetWidth;
     const nearEnd = scrollRightEdge + firstCardWidth * 2 >= carousel.scrollWidth;
@@ -175,7 +172,7 @@ const autoPlay = () => {
     timeoutId = setTimeout(() => {
         carousel.scrollLeft += firstCardWidth;
         maybeAppendSlides();
-        autoPlay(); // recursive for continuous scrolling
+        autoPlay();
     }, 2500);
 };
 
@@ -187,3 +184,33 @@ document.addEventListener("mouseup", dragStop);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
 
+
+// CENNIK FETCH
+fetch('cennik.json')
+    .then(response => response.json())
+    .then(data => {
+    const tbody = document.querySelector('.cennik_tabelka tbody');
+    const textDiv = document.querySelector('.cennik_text');
+    const regulaminList = document.querySelector('#regulamin_list')
+
+    data.cennik.forEach(pozycja => {
+        const row = document.createElement('tr');
+        row.innerHTML = `<td>${pozycja.termin}</td><td>${pozycja.cena}</td>`;
+        tbody.appendChild(row);
+    });
+
+    data.opis.forEach(linia => {
+        const p = document.createElement('p');
+        p.innerHTML = linia;
+        textDiv.appendChild(p);
+    });
+
+    data.regulamin.forEach(linia => {
+        const li = document.createElement('li');
+        li.innerHTML = linia;
+        regulaminList.appendChild(li);
+    });
+})
+.catch(error => {
+    console.error('Błąd podczas wczytywania danych cennika:', error);
+});
